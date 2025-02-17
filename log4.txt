@@ -1,0 +1,219 @@
+PrgStateId:5
+ExeStack:
+varf=test.in
+OpenRFile(varf)
+int varc
+ReadFile(varf, varc)
+print(varc)
+ReadFile(varf, varc)
+print(varc)
+CloseRFile(varf)
+
+SymTable: {}
+Out: []
+File Table: 
+Heap: {}
+-----------------------------------------------------------------------------------
+PrgStateId:5
+ExeStack:
+varf=test.in
+OpenRFile(varf)
+int varc
+ReadFile(varf, varc)
+print(varc)
+ReadFile(varf, varc)
+print(varc)
+CloseRFile(varf)
+
+SymTable: {varf=}
+Out: []
+File Table: 
+Heap: {}
+-----------------------------------------------------------------------------------
+PrgStateId:5
+ExeStack:
+OpenRFile(varf)
+int varc
+ReadFile(varf, varc)
+print(varc)
+ReadFile(varf, varc)
+print(varc)
+CloseRFile(varf)
+
+SymTable: {varf=}
+Out: []
+File Table: 
+Heap: {}
+-----------------------------------------------------------------------------------
+PrgStateId:5
+ExeStack:
+OpenRFile(varf)
+int varc
+ReadFile(varf, varc)
+print(varc)
+ReadFile(varf, varc)
+print(varc)
+CloseRFile(varf)
+
+SymTable: {varf=test.in}
+Out: []
+File Table: 
+Heap: {}
+-----------------------------------------------------------------------------------
+PrgStateId:5
+ExeStack:
+int varc
+ReadFile(varf, varc)
+print(varc)
+ReadFile(varf, varc)
+print(varc)
+CloseRFile(varf)
+
+SymTable: {varf=test.in}
+Out: []
+File Table: 
+Heap: {}
+-----------------------------------------------------------------------------------
+PrgStateId:5
+ExeStack:
+int varc
+ReadFile(varf, varc)
+print(varc)
+ReadFile(varf, varc)
+print(varc)
+CloseRFile(varf)
+
+SymTable: {varf=test.in}
+Out: []
+File Table: test.in
+
+Heap: {}
+-----------------------------------------------------------------------------------
+PrgStateId:5
+ExeStack:
+ReadFile(varf, varc)
+print(varc)
+ReadFile(varf, varc)
+print(varc)
+CloseRFile(varf)
+
+SymTable: {varf=test.in}
+Out: []
+File Table: test.in
+
+Heap: {}
+-----------------------------------------------------------------------------------
+PrgStateId:5
+ExeStack:
+ReadFile(varf, varc)
+print(varc)
+ReadFile(varf, varc)
+print(varc)
+CloseRFile(varf)
+
+SymTable: {varf=test.in, varc=0}
+Out: []
+File Table: test.in
+
+Heap: {}
+-----------------------------------------------------------------------------------
+PrgStateId:5
+ExeStack:
+print(varc)
+ReadFile(varf, varc)
+print(varc)
+CloseRFile(varf)
+
+SymTable: {varf=test.in, varc=0}
+Out: []
+File Table: test.in
+
+Heap: {}
+-----------------------------------------------------------------------------------
+PrgStateId:5
+ExeStack:
+print(varc)
+ReadFile(varf, varc)
+print(varc)
+CloseRFile(varf)
+
+SymTable: {varf=test.in, varc=15}
+Out: []
+File Table: test.in
+
+Heap: {}
+-----------------------------------------------------------------------------------
+PrgStateId:5
+ExeStack:
+ReadFile(varf, varc)
+print(varc)
+CloseRFile(varf)
+
+SymTable: {varf=test.in, varc=15}
+Out: []
+File Table: test.in
+
+Heap: {}
+-----------------------------------------------------------------------------------
+PrgStateId:5
+ExeStack:
+ReadFile(varf, varc)
+print(varc)
+CloseRFile(varf)
+
+SymTable: {varf=test.in, varc=15}
+Out: [15]
+File Table: test.in
+
+Heap: {}
+-----------------------------------------------------------------------------------
+PrgStateId:5
+ExeStack:
+print(varc)
+CloseRFile(varf)
+
+SymTable: {varf=test.in, varc=15}
+Out: [15]
+File Table: test.in
+
+Heap: {}
+-----------------------------------------------------------------------------------
+PrgStateId:5
+ExeStack:
+print(varc)
+CloseRFile(varf)
+
+SymTable: {varf=test.in, varc=50}
+Out: [15]
+File Table: test.in
+
+Heap: {}
+-----------------------------------------------------------------------------------
+PrgStateId:5
+ExeStack:
+CloseRFile(varf)
+
+SymTable: {varf=test.in, varc=50}
+Out: [15]
+File Table: test.in
+
+Heap: {}
+-----------------------------------------------------------------------------------
+PrgStateId:5
+ExeStack:
+CloseRFile(varf)
+
+SymTable: {varf=test.in, varc=50}
+Out: [15, 50]
+File Table: test.in
+
+Heap: {}
+-----------------------------------------------------------------------------------
+PrgStateId:5
+ExeStack:
+
+SymTable: {varf=test.in, varc=50}
+Out: [15, 50]
+File Table: 
+Heap: {}
+-----------------------------------------------------------------------------------
